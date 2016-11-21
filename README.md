@@ -1,7 +1,6 @@
 # MailBuilder
 
-class Program
-{
+
     static void Main(string[] args)
     {
         var mail = new MailBuilder()
@@ -18,4 +17,3 @@ class Program
 
         Console.WriteLine(mail.Body);
     }
-}
